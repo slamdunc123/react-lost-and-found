@@ -1,0 +1,36 @@
+client
+- node-sass
+- react-router-dom
+- axios
+- redux
+- react-redux
+- redux-devtools-extension -D
+- redux-thunk
+- react-bootstrap
+- bootstrap
+- bootswatch
+- mdbreact
+- react-bootstrap - removed
+- mdbreact - removed
+- formik
+- yup
+- storybook
+- uuid
+- moment
+
+add this line to client >> package.json
+"proxy": "http://localhost:5000"
+
+server
+npm init -y
+- express
+- nodemon -D
+- concurrently -D
+- mongoose
+- config
+- dotenv ?
+- cors ?
+- react-file-base64
+- twilio
+
+

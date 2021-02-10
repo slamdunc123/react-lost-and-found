@@ -1,0 +1,19 @@
+// import custom scss file to overwrite main bootstrap scss
+@import './scss/custom';
+
+// import optionanl bootswatch theme
+@import '~bootswatch/dist/spacelab/variables';
+@import '~bootstrap/scss/bootstrap';
+@import '~bootswatch/dist/spacelab/bootswatch';
+
+.modal-backdrop {
+	background-color: rgba(0, 0, 0, 0.5);
+}
+
+.btn:focus {
+	box-shadow: none;
+}
+
+.card {
+	padding-top: 1rem;
+}

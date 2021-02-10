@@ -1,0 +1,45 @@
+SERVER
+
+Add jwt reference to config file
+
+- config/default.json
+- config/production.json
+
+Add new api routes to server
+
+- server.js
+
+
+User Model
+
+- create User model
+
+models/User.js
+
+
+User Authentication - login
+
+- create auth middleware (jwt set up)
+
+middleware/auth.js
+
+- create auth api
+
+routes/api/auth.js
+
+- add jwt
+
+config/default.json
+
+
+User Registration
+
+- create users api
+
+routes/api/users.js
+
+
+
+
+
+
